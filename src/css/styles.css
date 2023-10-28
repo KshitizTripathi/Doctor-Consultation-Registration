@@ -1,0 +1,119 @@
+*{
+    
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f4f4f4;
+    /* background-color: #4158D0; */
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+
+}
+.container {
+    
+    transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+    background-color: #f2a8a6;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"], select {
+    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    display: none;
+}
+.btn-popup {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .nav-links {
+    
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Background color for the links */
+    border-radius: 5px;
+  }
+  
+  .nav-links li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff; /* Text color for the links */
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  
+  /* Center the links horizontally and add spacing */
+  .nav-links li:first-child {
+    margin-right: 10px;
+  }
+  
+  /* Optional: Center the links vertically */
+  .nav-links {
+    align-items: center;
+  }
